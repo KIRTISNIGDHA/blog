@@ -1,4 +1,35 @@
-baseURL = "https://KirtiSnigdha.github.io/"
+baseURL = "https://kirtisnigdha.github.io/"
 languageCode = "en-us"
-title = "My Blog"
+title = "Kirti Snigdha"
 theme = "ananke"
+
+DefaultContentLanguage = "en"
+SectionPagesMenu = "main"
+Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
+googleAnalytics = ""
+enableRobotsTXT = true
+canonifyURLs = true
+[sitemap]
+  changefreq = "monthly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[params]
+  favicon = ""
+  site_logo = ""
+  description = "The last theme you'll ever need. Maybe."
+  facebook = ""
+  twitter = "https://twitter.com/KirtiSnigdha"
+  #instagram = "https://www.instagram.com/kirtisnigdha/"
+  youtube = ""
+  github = "https://github.com/KIRTISNIGDHA"
+  gitlab = ""
+  linkedin = "https://www.linkedin.com/in/kirtisnigdha/"
+  mastodon = ""
+  slack = ""
+  stackoverflow = ""
+  rss = ""
+  # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
+  background_color_class = "bg-white"
+  featured_image = "/images/Flight.jpg"
+  recent_posts_number = 2
