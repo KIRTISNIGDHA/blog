@@ -1,17 +1,14 @@
 ---
 install:
-curl -LO https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_Linux-64bit.deb
- sudo dpkg - i hugo_0.74.3_Linux-64bit.deb
+  - curl -LO https://github.com/gohugoio/hugo/releases/download/v0.74.3/hugo_0.74.3_Linux-64bit.deb
+  - sudo dpkg -i hugo_0.74.3_Linux-64bit.deb
 
-Before script:
-rm -rf public
 script:
- hugo
+  - hugo
 
 deploy:
-provider: script
-    script: bash deploy.sh
+  - provider: script
+    script: ./deploy.sh
     skip_cleanup: true
-    
     on:
       branch: master
