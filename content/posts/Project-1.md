@@ -2,7 +2,7 @@
 date: 2020-03-09T10:58:08-04:00
 description: "A tool that predicts prognosis of glioblastoma patients"
 featured_image: "/images/prognostoma.png"
-#tags: ["scene"] external link 
+
 title: "Prognostoma"
 text-align: justify;
 

@@ -6,9 +6,10 @@ theme = "ananke"
 DefaultContentLanguage = "en"
 SectionPagesMenu = "main"
 Paginate = 3 # this is set low for demonstrating with dummy content. Set to a higher number
-googleAnalytics = ""
+googleAnalytics = "UA-178001942-1"
 enableRobotsTXT = true
 canonifyURLs = true
+customCSS = ["css/custom.css"]
 [sitemap]
   changefreq = "monthly"
   priority = 0.5
@@ -16,11 +17,10 @@ canonifyURLs = true
 
 [params]
   favicon = ""
+  
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
-  facebook = ""
   twitter = "https://twitter.com/KirtiSnigdha"
-  #instagram = "https://www.instagram.com/kirtisnigdha/"
   youtube = ""
   github = "https://github.com/KIRTISNIGDHA"
   gitlab = ""
@@ -29,8 +29,13 @@ canonifyURLs = true
   slack = ""
   stackoverflow = ""
   rss = ""
+  body_classes = "times dark-red"
   # choose a background color from any on this page: http://tachyons.io/docs/themes/skins/ and preface it with "bg-"
-  background_color_class = "bg-white"
+  background_color_class = "bg-dark-gray"
   featured_image = "/images/Flight.jpg"
-  recent_posts_number = 2
-  customCSS = "/style.css"
+  recent_posts_number = 1
+  show_reading_time = true
+  toc = true
+  post_content_classes = "times"
+  math = true
+  
