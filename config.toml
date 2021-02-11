@@ -17,7 +17,7 @@ customCSS = ["css/custom.css"]
 
 [params]
   favicon = ""
-  
+  custom_css = ["css/custom.css"]
   site_logo = ""
   description = "The last theme you'll ever need. Maybe."
   twitter = "https://twitter.com/KirtiSnigdha"
